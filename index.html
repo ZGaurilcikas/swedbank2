@@ -16,10 +16,11 @@
 				<img src="assets/images/info.png" alt="Infomarcija">
 				<img src="assets/images/face.jpg" alt="Žmogus">
 			</div>
-			<div class="first_text">
-				<p><h4>Gerb. Kliente,</h4>
-					pasirūpinti savo ateitimi gali ir turėtų kiekvienas. Sukaupti pinigų, kad senatvėje gyventumėte labiau aprūpintai, nėra sudėtinga, kaip atrodo iš pirmo žvilgsnio – Jūs galite pasirinkti „Swedbank“ Gyvenimo ciklo pensijų fondus. Kuo anksčiau pradėsite, tuo daugiau sukaupsite.	<p>
-				</p>
+			<div class="first_text">				
+					<div id="hide">
+						<p><h4>Gerb. Kliente,</h4>pasirūpinti savo ateitimi gali ir turėtų kiekvienas. Sukaupti pinigų, kad senatvėje gyventumėte labiau aprūpintai, nėra sudėtinga, kaip atrodo iš pirmo žvilgsnio – Jūs galite pasirinkti „Swedbank“ Gyvenimo ciklo pensijų fondus. Kuo anksčiau pradėsite, tuo daugiau sukaupsite.</p>
+					</div>
+					<input onclick="showingElements()" type="button" value="Paslėpk" id="myButton1" />
 				<div class="color_text">
 					Gyvenimo ciklo pensijų fondai – patogu ir naudinga, nes:
 				</div>
@@ -40,6 +41,27 @@
 				</div>
 			</div>
 		</div>
+	<script>
+
+	function showingElements() {
+		var x = document.getElementById("hide");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+			myButton1.value = "Paslėpk";
+		} else {
+			x.style.display = "none";
+			myButton1.value  = "Parodyk";
+		}		
+	}
+
+	function SetText() {
+    	if (myButton1.value == "Change") {
+        	myButton1.value = "Save";
+		} else {
+    		myButton1.value = "Change";
+    	}
+	}
+	</script>
 	</body>
 </html>
 

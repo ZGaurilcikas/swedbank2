@@ -50,19 +50,19 @@ html {
   background-color: #fff;
 }
 
-.first_text {
-  margin: 0;
-  padding: 5px 80px 0;
-  font-size: 1.8rem;
-  line-height: 1.2;
-}
-
 .color_text {
   background-color: #ed7223;
   color: #fff;
   padding: 15px;
   margin: 0;
   font-size: 1.6rem;
+}
+
+.first_text {
+  margin: 0;
+  padding: 5px 80px 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 .first_text span {
@@ -85,6 +85,22 @@ html {
 .first_text li {
   background: url(http://www.swedbank.lt/docs/emails/8315/bullet_2x.png) no-repeat left center;
   padding: 15px 45px;
+}
+
+#hide {
+  display: block;
+}
+
+#myButton1 {
+  padding: 10px;
+  margin: 5px;
+  color: #ed7223;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #fff;
+  border-radius: 35px;
+  border: 1px solid #ed7223;
+  cursor: pointer;
 }
 
 .push_now {
