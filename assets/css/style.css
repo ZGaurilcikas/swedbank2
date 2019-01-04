@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fbf2ea;
+}
+
+html {
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top_pictures {
+  padding: 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.second_pictures {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.first_text,
+.color_text {
+  font-weight: 600;
+  font-family: arial;
+}
+
+.first_text,
+.top_pictures,
+.second_pictures {
+  background-color: #fff;
+}
+
+.first_text {
+  margin: 0;
+  padding: 5px 80px 0;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.color_text {
+  background-color: #ed7223;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.first_text span {
+  font-weight: 600;
+}
+
+.first_text p {
+  margin: 5px;
+}
+
+.first_text ul {
+  background-color: #fbf2ea;
+  margin: 0;
+  padding: 0 35px;
+  font-weight: 400;
+  font-size: 1.625rem;
+  list-style-type: none;
+}
+
+.first_text li {
+  background: url(http://www.swedbank.lt/docs/emails/8315/bullet_2x.png) no-repeat left center;
+  padding: 15px 45px;
+}
+
+.push_now {
+  margin: 25px 0;
+  background-color: #c8edf1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.push_now p {
+  color: #31a3ae;
+}
+
+.push_now img {
+  padding: 15px;
+}
+
+.third_text h4 {
+  color: #ed7223;
+}
+
+.third_text p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}

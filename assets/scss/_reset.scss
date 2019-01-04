@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+	box-sizing:border-box;
+
+}
+
+body {
+	margin:0;
+	background-color: #fbf2ea;
+}
+
+html {
+	font-size: 16px;
+}
+.container {
+	margin: 0 auto;
+    max-width: 1300px;
+ 
+}
+.flex-container {
+    display: flex;
+}

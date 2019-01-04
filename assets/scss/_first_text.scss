@@ -1,0 +1,45 @@
+.first_text,
+.color_text {
+	font-weight: 600;
+	font-family: arial;
+}
+.first_text,
+.top_pictures,
+.second_pictures {
+	background-color: #fff;
+}
+
+.first_text {
+	margin: 0;
+	padding: 5px 80px 0;
+	font-size: 1.8rem;
+	line-height: 1.2;
+}
+.color_text  {
+	background-color: #ed7223;
+	color: #fff;
+	padding: 15px;
+	margin: 0;
+	font-size: 1.6rem;
+}
+.first_text  {
+	span {
+		font-weight: 600;
+	}
+	p{
+		margin: 5px;
+	}
+	ul {
+		background-color: #fbf2ea;
+		margin: 0;
+		padding: 0 35px;
+		font-weight: 400;
+		font-size: 1.625rem;
+		list-style-type: none;
+	}
+	li {
+		background: url(http://www.swedbank.lt/docs/emails/8315/bullet_2x.png) no-repeat left center;
+		padding: 15px 45px;
+	}
+	
+}
